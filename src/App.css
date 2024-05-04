@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 :root {
   color: #171717;
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
   border: 1px solid #202020;
   margin: 10px;
+  padding: 10px 30px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Syne", sans-serif;
 }
 
 p {
   font-family: "Roboto Mono", monospace;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  padding: 8px;
+  border-radius: 5px;
 }
