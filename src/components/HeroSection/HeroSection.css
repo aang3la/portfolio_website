@@ -11,7 +11,7 @@
 
 .hero-left h1 {
     font-size: 65px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .hero-left-buttons {
@@ -29,6 +29,9 @@
 .work-btn {
     font-size: 14px;
     color: #171717;
-    padding: 8px;
     border: 1px solid #171717;
+}
+
+.hero-right img {
+    border-radius: 20px;
 }

@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <section id="Header">
       <div className="logo-container">
-        <img src={logo} width={150} height={150} />
+        <img src={logo} width={140} />
       </div>
       <div className="navbar-container">
         <ul>

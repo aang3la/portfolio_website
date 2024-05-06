@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import hero_img from "../../assets/hero_image.jpg";
+import hero_img from "../../assets/hero_section.jpg";
 
 export const HeroSection = () => {
   return (
@@ -20,7 +20,7 @@ export const HeroSection = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img src={hero_img} alt="hero-img" width={500} />
+        <img src={hero_img} alt="hero-img" width={630} />
       </div>
     </section>
   );

@@ -15,7 +15,10 @@ h3 {
   font-family: "Syne", sans-serif;
 }
 
-p {
+p,
+h4,
+h5,
+h6 {
   font-family: "Roboto Mono", monospace;
 }
 
@@ -24,4 +27,9 @@ button {
   font-family: "Roboto Mono", monospace;
   padding: 8px;
   border-radius: 5px;
+}
+
+button:hover {
+  /* border: 2px solid rgb(121, 121, 121); */
+  size: 2rem;
 }
