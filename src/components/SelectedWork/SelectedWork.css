@@ -1,0 +1,44 @@
+#Selected-work {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 30px 0px;
+}
+
+.selected-work-left-continer {
+    width: 500px;
+    display: flex;
+}
+
+.selected-work-left-continer h1 {
+    font-size: 35px;
+}
+
+.selected-work-left-continer hr {
+    height: 700px;
+    margin-right: -10px;
+}
+.selected-work-left-continer button {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+}
+
+.selected-work-right {
+    padding-right: 70px;
+}
+
+.work-content {
+    padding-top: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.github-btn {
+    width: 110px;
+    font-size: 10px;
+    border: none;
+    background-color: rgb(48, 48, 48);
+}

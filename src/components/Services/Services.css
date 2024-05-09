@@ -1,0 +1,52 @@
+#Services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 0px;
+}
+
+.headline-section {
+    display: flex;
+}
+
+.services-left-part {
+    width: 500px;
+    display: flex;
+}
+
+.services-left-part hr {
+    height: 600px;
+    margin-right: -10px;
+}
+
+.services-container {
+    width: 850px;
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(2, 400px);
+}
+
+.services-container p {
+    font-size: 13px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.services-container h2 {
+    color: rgb(48, 48, 48);
+}
+
+.services-stack {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-stack p {
+    padding: 5px 13px;
+    font-size: 11px;
+    margin-bottom: 2px;
+    margin-right: 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(212, 212, 207);
+    color: rgb(57, 57, 57);
+}

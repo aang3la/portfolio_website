@@ -11,10 +11,10 @@ export const Header = () => {
       <div className="navbar-container">
         <ul>
           <li>
-            <p>WORK</p>
+            WORK
           </li>
           <li>
-            <button>CONTACT</button>
+            <button className="contact-btn">CONTACT</button>
           </li>
           <hr id="hr" />
           <li>

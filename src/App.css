@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root {
   color: #171717;
@@ -15,11 +16,13 @@ h3 {
   font-family: "Syne", sans-serif;
 }
 
-p,
-h4,
-h5,
-h6 {
+h4 {
   font-family: "Roboto Mono", monospace;
+}
+
+p {
+  font-family: "Ubuntu Sans", sans-serif;
+  line-height: 1.6;
 }
 
 button {
@@ -27,9 +30,21 @@ button {
   font-family: "Roboto Mono", monospace;
   padding: 8px;
   border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button > a {
+  text-decoration: none;
+  color: #fff;
 }
 
 button:hover {
   /* border: 2px solid rgb(121, 121, 121); */
   size: 2rem;
+}
+
+.small-headings {
+  font-size: 11px;
+  font-weight: 400;
 }
