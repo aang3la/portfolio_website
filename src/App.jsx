@@ -1,4 +1,5 @@
 import "./App.css";
+import { Benefits } from "./components/Benefits/Benefits";
 import { Header } from "./components/Header/Header";
 import { HeroSection } from "./components/HeroSection/HeroSection";
 import { SelectedWork } from "./components/SelectedWork/SelectedWork";
@@ -14,6 +15,8 @@ function App() {
       <Services />
       <hr />
       <SelectedWork />
+      <hr />
+      <Benefits />
     </>
   );
 }
