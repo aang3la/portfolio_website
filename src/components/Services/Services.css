@@ -73,7 +73,7 @@
     }
 }
 
-@media only screen and (min-width: 430px) and (max-width: 1000px) {
+@media only screen and (min-width: 430px) and (max-width: 770px) {
     #Services {
         display: flex;
         flex-direction: column;
