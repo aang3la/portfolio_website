@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <section id="Header">
       <div className="logo-container">
-        <img src={logo} width={140} />
+        <img src={logo} alt="logo" width={140} />
       </div>
       <div className="navbar-container">
         <ul>
@@ -14,7 +14,8 @@ export const Header = () => {
             WORK
           </li>
           <li>
-            <button className="contact-btn">CONTACT</button>
+            <button className="contact-btn">
+            <a href="mailto:antovaangela.com">CONTACT</a></button>
           </li>
           <hr id="hr" />
           <li>
