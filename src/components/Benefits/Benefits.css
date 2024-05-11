@@ -8,7 +8,7 @@
 
 .benefits-container {
     display: grid;
-    grid-template-columns: repeat(3, 450px);
+    grid-template-columns: repeat(3, 440px);
     align-items: center;
-    gap: 20px;
+    gap: 45px;
 }

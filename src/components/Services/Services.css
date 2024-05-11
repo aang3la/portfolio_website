@@ -50,3 +50,44 @@
     background-color: rgb(212, 212, 207);
     color: rgb(57, 57, 57);
 }
+
+@media only screen and (max-width: 600px) {
+    #Services {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .services-left-part hr {
+        display: none;
+    }
+
+    .services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-container div {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 1000px) {
+    #Services {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .services-left-part hr {
+        display: none;
+    }
+
+    .services-container {
+        width: 100%;
+        display: grid;
+        gap: 35px;
+        grid-template-columns: repeat(2, 320px);
+    }
+}
