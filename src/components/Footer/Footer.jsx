@@ -22,6 +22,7 @@ export const Footer = () => {
               href="https://www.linkedin.com/in/angelaantova/"
               target="_blank"
               rel="noreferrer"
+              id="linkedin"
             >
               <img id="linkedin-icon" src={linkedin} alt="linkedin-profile" />
             </a>
