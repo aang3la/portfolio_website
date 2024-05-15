@@ -15,7 +15,7 @@
 }
 
 .services-left-part hr {
-    height: 600px;
+    height: 550px;
     margin-right: -10px;
 }
 
@@ -33,6 +33,10 @@
 
 .services-container h2 {
     color: rgb(48, 48, 48);
+}
+
+.services-container h2:hover {
+    color: rgb(60, 60, 60);
 }
 
 .services-stack {

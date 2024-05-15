@@ -17,6 +17,10 @@
     font-size: 55px;
 }
 
+.footer-left h1:hover {
+    color: rgb(60, 60, 60);
+}
+
 .footer-left hr {
     margin-right: -10px;
 }

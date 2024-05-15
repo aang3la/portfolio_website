@@ -17,7 +17,8 @@ export const Services = () => {
             here to help! I specialize in creating responsive and intuitive
             interfaces using React, ensuring smooth navigation and a visually
             appealing experience for users. With Node.js on back-end, I bring
-            scalable and efficient backend solutions & high-quality results that drive user engagement and success.
+            scalable and efficient backend solutions & high-quality results that
+            drive user engagement and success.
           </p>
 
           <div className="services-stack">
@@ -36,11 +37,11 @@ export const Services = () => {
           <h2>Digital Marketing</h2>
           <p>
             If you're seeking digital marketing expertise, look no further! I
-            excel at managing budget allocation, refining audience targeting
-            , crafting compelling ad copy, and optimizing campaigns
-            for maximum impact. With a keen eye for detail, I formulate and
-            execute paid advertising strategies that drive results and
-            constantly monitoring campaign performance.
+            excel at managing budget allocation, refining audience targeting ,
+            crafting compelling ad copy, and optimizing campaigns for maximum
+            impact. With a keen eye for detail, I formulate and execute paid
+            advertising strategies that drive results and constantly monitoring
+            campaign performance.
           </p>
 
           <div className="services-stack">
@@ -56,11 +57,10 @@ export const Services = () => {
         <div>
           <h2>Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            mollitia minus sapiente sit asperiores sed repellat neque minima,
-            enim numquam?Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Dignissimos mollitia minus sapiente sit asperiores sed
-            repellat neque minima, enim numquam?
+            I have expertise in crafting visually captivating designs for social
+            media and ads using Canva, ensuring your digital presence stands out
+            in today's competitive landscape. Currently learning Figma for
+            creation of interactive website designs.
           </p>
 
           <div className="services-stack">
@@ -72,11 +72,8 @@ export const Services = () => {
         <div>
           <h2>Tools & Data</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            mollitia minus sapiente sit asperiores sed repellat neque minima,
-            enim numquam?Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Dignissimos mollitia minus sapiente sit asperiores sed
-            repellat neque minima, enim numquam?
+            I excel in working with numbers and have experience in
+            leveraging Excel for data management and analysis. Integrating tools like Clickup and Slack into processes for enhanced organization and productivity, and Visual Studio Code for streamlined development.
           </p>
 
           <div className="services-stack">

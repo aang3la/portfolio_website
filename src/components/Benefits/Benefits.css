@@ -6,6 +6,10 @@
     font-size: 35px;
 }
 
+#Benefits h2:hover {
+    color: rgb(60, 60, 60);
+}
+
 .benefits-container {
     display: grid;
     grid-template-columns: repeat(3, 440px);
