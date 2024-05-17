@@ -34,7 +34,6 @@ export const Projects = () => {
                 src={project.image}
                 alt={project.name}
                 width={800}
-                height={600}
               />
             </div>
           </div>
