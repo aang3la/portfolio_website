@@ -1,5 +1,6 @@
 import "./SelectedWork.css";
 import stock_dolphin from "../../assets/project_stock_dolphin.png";
+import { Link } from "react-router-dom";
 
 export const SelectedWork = () => {
   return (
@@ -14,7 +15,9 @@ export const SelectedWork = () => {
             design and implemented with code, using React combined with Node.js,
             and MongoDB for storing data.
           </p>
-          <button>SEE ALL WORK</button>
+          <Link to="/work">
+            <button>SEE ALL WORK</button>
+          </Link>
         </div>
         <hr />
       </div>

@@ -1,6 +1,7 @@
 import logo from "../../assets/my-logo.png";
 import linkedin from "../../assets/linkedin-logo.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -10,12 +11,16 @@ export const Header = () => {
       </div>
       <div className="navbar-container">
         <ul>
-          <li>
-            <span id="symbols">&#x3c;</span>WORK<span id="symbols">/&#x3e;</span>
-          </li>
+          <Link to="/work">
+            <li>
+              <span id="symbols">&#x3c;</span>WORK
+              <span id="symbols">/&#x3e;</span>
+            </li>
+          </Link>
           <li>
             <button className="contact-btn">
-            <a href="mailto:antovaangela.com">CONTACT</a></button>
+              <a href="mailto:antovaangela.com">CONTACT</a>
+            </button>
           </li>
           <hr id="hr" />
           <li>

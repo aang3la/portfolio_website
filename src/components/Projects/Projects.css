@@ -1,0 +1,19 @@
+.project-container {
+    display: flex;
+}
+
+.projects-left {
+    width: 400px;
+}
+
+.projects-left h1 {
+    font-size: 40px;
+}
+
+.projects-left button {
+    background-color: #171717;
+}
+
+.projects-right img {
+    border-radius: 10px;
+}

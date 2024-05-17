@@ -1,5 +1,6 @@
 import "./HeroSection.css";
 import hero_img from "../../assets/hero_section.jpg";
+import { Link } from "react-router-dom";
 
 export const HeroSection = () => {
   return (
@@ -17,7 +18,9 @@ export const HeroSection = () => {
           <button className="contact-btn">
             <a href="mailto:antovaangela.com">CONTACT</a>
           </button>
-          <button className="work-btn">SEE PROJECTS</button>
+          <Link to="work">
+            <button className="work-btn">SEE PROJECTS</button>
+          </Link>
         </div>
       </div>
       <div className="hero-right">
