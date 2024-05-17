@@ -24,6 +24,10 @@
         flex-direction: column;
         padding: 20px 0px;
     }
+
+    #Benefits h1 {
+        font-size: 32px;
+    }
 }
 
 @media only screen and (min-width: 430px) and (max-width: 770px) {
