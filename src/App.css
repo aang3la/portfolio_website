@@ -32,6 +32,7 @@ button {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button > a {
@@ -40,8 +41,8 @@ button > a {
 }
 
 button:hover {
-  /* border: 2px solid rgb(121, 121, 121); */
-  size: 2rem;
+  background-color: rgb(41, 41, 41);
+  transform: scale(1.1);
 }
 
 .small-headings {

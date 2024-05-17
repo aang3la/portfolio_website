@@ -1,5 +1,5 @@
 import "./SelectedWork.css";
-import stock_dolphin from "../../assets/stock_dolphin.png";
+import stock_dolphin from "../../assets/project_stock_dolphin.png";
 
 export const SelectedWork = () => {
   return (
@@ -20,7 +20,7 @@ export const SelectedWork = () => {
       </div>
       <div className="selected-work-container">
         <div className="selected-work-right">
-          <img src={stock_dolphin} width={700} />
+          <img src={stock_dolphin} width={750} />
           <div className="work-content">
             <div>
               <h3>Stock Dolphin</h3>

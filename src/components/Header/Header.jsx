@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="navbar-container">
         <ul>
           <li>
-            WORK
+            <span id="symbols">&#x3c;</span>WORK<span id="symbols">/&#x3e;</span>
           </li>
           <li>
             <button className="contact-btn">

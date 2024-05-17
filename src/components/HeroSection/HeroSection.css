@@ -33,6 +33,10 @@
   border: 1px solid #171717;
 }
 
+.work-btn:hover {
+  background-color: white;
+}
+
 .hero-right img {
   border-radius: 20px;
 }
