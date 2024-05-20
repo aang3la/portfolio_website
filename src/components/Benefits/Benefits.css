@@ -3,7 +3,11 @@
 }
 
 #Benefits h1 {
-    font-size: 35px;
+    font-size: 33px;
+}
+
+#Benefits h2 {
+    font-size: 22px;
 }
 
 #Benefits h2:hover {
@@ -12,9 +16,10 @@
 
 .benefits-container {
     display: grid;
-    grid-template-columns: repeat(3, 440px);
+    grid-template-columns: repeat(3, 420px);
+    justify-content: center;
     align-items: center;
-    gap: 45px;
+    gap: 40px;
 }
 
 @media only screen and (max-width: 600px) {

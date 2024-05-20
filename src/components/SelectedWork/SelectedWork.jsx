@@ -6,7 +6,7 @@ export const SelectedWork = () => {
   return (
     <section id="Selected-work">
       <div className="selected-work-left-continer">
-        <div>
+        <div className="left-content">
           <h1>SELECTED WORK</h1>
           <p>
             Having worked on a big project for IT Labs (software company). The

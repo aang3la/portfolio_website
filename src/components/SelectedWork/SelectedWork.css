@@ -6,8 +6,12 @@
 }
 
 .selected-work-left-continer {
-  width: 500px;
+  width: 480px;
   display: flex;
+}
+
+.left-content {
+  width: 420px;
 }
 
 .selected-work-left-continer h1 {
@@ -25,7 +29,11 @@
 }
 
 .selected-work-right {
-  padding-right: 70px;
+  padding-right: 40px;
+}
+
+.selected-work-right img {
+  border-radius: 20px;
 }
 
 .work-content {

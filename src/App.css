@@ -51,13 +51,13 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
+  html, body {
     overflow-x: hidden; 
   }
 }
 
 @media only screen and (min-width: 430px) and (max-width: 770px) {
-  body {
+  html, body {
     overflow-x: hidden; 
   }
 }
