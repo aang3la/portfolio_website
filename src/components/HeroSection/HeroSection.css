@@ -41,6 +41,36 @@
   border-radius: 20px;
 }
 
+.hero-left {
+  animation: slideInLeft 1s ease forwards;
+}
+
+.hero-right {
+  animation: slideInRight 1s ease forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /* mobile */
 @media only screen and (max-width: 600px) {
   #Hero-section {
