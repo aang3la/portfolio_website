@@ -2,6 +2,7 @@ import stock_dolphin from "./assets/project_stock_dolphin.png";
 import restaurant_website from "./assets/restaurant_website.png";
 import office_chatapp from "./assets/office_chatapp.png";
 import acode from "./assets/project_acode.png";
+import portfolio_website from "./assets/portfolio_website.png";
 
 export const projects_data = [
     {
@@ -10,7 +11,8 @@ export const projects_data = [
         image: stock_dolphin,
         url: "https://github.com/aang3la/Stock_Dolphin",
         technologies: ["HTML", "CSS", "React", "NodeJS", "ExpressJS", "MongoDB"]
-    },{
+    },
+    {
         name: "Restaurant Website",
         description: "Website for a traditional restaurant, catering to both mobile and desktop versions to showcase the main information about the restaurant and its menu, including prices.",
         image: restaurant_website,
@@ -30,5 +32,12 @@ export const projects_data = [
         image: acode,
         url: "https://github.com/aang3la/ACode-ITcompany",
         technologies: ["HTML", "CSS"]
+    },
+    {
+        name: "My Porfolio Website",
+        description: "Portfolio website that showcases my skills, projects, and experience.",
+        image: portfolio_website,
+        url: "https://github.com/aang3la/portfolio_website",
+        technologies: ["HTML", "CSS", "React"]
     }   
 ];
