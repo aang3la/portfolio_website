@@ -1,6 +1,7 @@
 import stock_dolphin from "./assets/project_stock_dolphin.png";
 import restaurant_website from "./assets/restaurant_website.png";
 import office_chatapp from "./assets/office_chatapp.png";
+import worwise from './assets/Worwise.png';
 import acode from "./assets/project_acode.png";
 import portfolio_website from "./assets/portfolio_website.png";
 
@@ -11,6 +12,13 @@ export const projects_data = [
         image: stock_dolphin,
         url: "https://github.com/aang3la/Stock_Dolphin",
         technologies: ["HTML", "CSS", "React", "NodeJS", "ExpressJS", "MongoDB"]
+    },
+    {
+        name: "WorWise Landing Page",
+        description: "AI-powered SaaS platform that offers a personalized job dashboard and advanced AI resume screening to enhance candidate experience and streamline recruitment.",
+        image: worwise,
+        url: "https://github.com/aang3la/WorWise-Landing-Page",
+        technologies: ["HTML", "CSS", "React", "TypeScript"]
     },
     {
         name: "Restaurant Website",
