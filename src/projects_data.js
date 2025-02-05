@@ -4,6 +4,8 @@ import office_chatapp from "./assets/office_chatapp.png";
 import worwise from './assets/Worwise.png';
 import acode from "./assets/project_acode.png";
 import portfolio_website from "./assets/portfolio_website.png";
+import nutri_diet from "./assets/nutri_diet.png";
+import kmn from './assets/kmn.png';
 
 export const projects_data = [
     {
@@ -28,6 +30,20 @@ export const projects_data = [
         technologies: ["HTML", "CSS", "React"]
     },
     {
+        name: "Nutri Diet",
+        description: "Website for salon for nutrition and beauty treatments for face and body",
+        image: nutri_diet,
+        url: "https://nutridiet.mk/",
+        technologies: ["WordPress", "Elementor"]
+    },
+    {
+        name: "KMN GoldMint",
+        description: "Website for ecommerce selling gold and silver products, ingots, coin and medal collections.",
+        image: kmn,
+        url: "https://kmn-goldmint.mk/",
+        technologies: ["WordPress", "Elementor"]
+    },
+    {
         name: "Office Chat App",
         description: "Server-side social media application where people can write posts and share some information.",
         image: office_chatapp,
@@ -47,5 +63,5 @@ export const projects_data = [
         image: portfolio_website,
         url: "https://github.com/aang3la/portfolio_website",
         technologies: ["HTML", "CSS", "React"]
-    }   
+    },    
 ];
