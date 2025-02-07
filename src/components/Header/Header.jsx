@@ -32,9 +32,12 @@ export const Header = () => {
           </Link>
           <Link to="/work" className="nav-link">
             <li className="nav-element" onClick={toggleMenu}>
-              <span id="symbols">&#x3c;</span>WORK
+              <span id="symbols">&#x3c;</span>WEBSITES
               <span id="symbols">/&#x3e;</span>
             </li>
+          </Link>
+          <Link to="/portfolio" className="nav-link">
+            ADS/DESIGNS
           </Link>
           <div className="nav-buttons">
           <li className="nav-element">
