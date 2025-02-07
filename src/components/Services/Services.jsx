@@ -28,7 +28,7 @@ export const Services = () => {
             <p>ReactJS</p>
             <p>NodeJS</p>
             <p>MongoDB</p>
-            <p>Rest APIs</p>
+            <p>Svelte</p>
             <p>Github</p>
             <p>Postman</p>
           </div>
@@ -67,6 +67,7 @@ export const Services = () => {
             <p>Canva</p>
             <p>Social Media Content</p>
             <p>Figma *(learning)*</p>
+            <p>Wordpress</p>
           </div>
         </div>
         <div>
